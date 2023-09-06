@@ -437,12 +437,20 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse; }
+    .inicio-contacto .titulo-contacto {
+      font-size: 20px;
+      color: #1d1e1b;
+      font-family: "Castoro Titling", cursive;
+      text-align: center;
+      text-align: center;
+      margin-top: 20%;
+      width: 100%;
+      order: 1; }
     .inicio-contacto .contenedor-info {
       flex: 1;
       padding: 2rem;
       font-family: "Castoro Titling", cursive;
       align-items: center;
-      margin-top: 10%;
       order: 2; }
       .inicio-contacto .contenedor-info .texto-formulario {
         font-size: 13px;
@@ -482,28 +490,49 @@
     margin-top: 5%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
     height: 80vh; }
-    .inicio-contacto .contenedor-info {
-      flex: 1;
-      padding: 2rem;
+    .inicio-contacto .titulo-contacto {
+      font-size: 25px;
+      color: #1d1e1b;
       font-family: "Castoro Titling", cursive;
-      align-items: center;
-      order: 2; }
+      text-align: center;
+      text-align: center;
+      margin-top: 20%;
+      width: 100%;
+      order: 1; }
+    .inicio-contacto .contenedor-info {
+      display: flex;
+      flex: 1;
+      margin-top: 10%;
+      order: 2;
+      width: 95%;
+      flex-wrap: wrap;
+      flex-direction: column; }
       .inicio-contacto .contenedor-info .desc-formulario {
         font-size: 15px;
         color: #1d1e1b;
         font-family: "Spectral";
-        display: block;
         margin-bottom: 10px;
         text-align: center; }
+      .inicio-contacto .contenedor-info .disclaimer {
+        display: flex;
+        margin: auto;
+        width: 80%;
+        order: 2; }
+        .inicio-contacto .contenedor-info .disclaimer .text-disclaimer {
+          font-size: 15px;
+          color: #1d1e1b;
+          font-family: "Spectral";
+          text-align: justify; }
     .inicio-contacto .contenedor {
       flex: 1;
       padding: 2rem;
       font-family: "Castoro Titling", cursive;
       align-items: center;
       order: 1;
-      margin-top: 10%; }
+      margin-top: 5%; }
       .inicio-contacto .contenedor .texto-formulario {
         font-size: 18px;
         color: #1d1e1b;
@@ -537,15 +566,25 @@
     flex-wrap: wrap-reverse;
     justify-content: center;
     margin-top: 10%; }
+    .inicio-contacto .titulo-contacto {
+      font-size: 30px;
+      color: #1d1e1b;
+      font-family: "Castoro Titling", cursive;
+      text-align: center;
+      text-align: center;
+      margin: auto;
+      width: 100%;
+      order: 1; }
     .inicio-contacto .contenedor-info {
       flex: 1;
       padding: 2rem;
       align-items: center; }
       .inicio-contacto .contenedor-info .desc-formulario {
+        display: flex;
         font-size: 15px;
         color: #1d1e1b;
         font-family: "Castoro Titling", cursive;
-        display: block;
+        flex-direction: row;
         margin-bottom: 10px;
         text-align: left; }
     .inicio-contacto .contenedor {
@@ -561,10 +600,10 @@
         margin-bottom: 10px;
         text-align: center; }
       .inicio-contacto .contenedor .formulario {
+        display: flex;
         text-align: left;
         font-size: 17px;
         color: #1d1e1b;
-        display: flex;
         margin-top: 5%; }
       .inicio-contacto .contenedor #formu,
       .inicio-contacto .contenedor [name="mail"],
@@ -578,6 +617,18 @@
         margin-top: 10px;
         padding: 10px;
         width: 100%; } }
+
+.disclaimer {
+  display: flex;
+  width: 100%;
+  margin-top: 10%;
+  justify-content: center;
+  flex-direction: column; }
+  .disclaimer .text-disclaimer {
+    font-size: 16px;
+    color: #1d1e1b;
+    font-family: "Spectral";
+    text-align: justify; }
 
 @media (max-width: 767px) {
   .inicio-ag {
