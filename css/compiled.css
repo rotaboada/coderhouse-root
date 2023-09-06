@@ -469,7 +469,8 @@
         color: #1d1e1b;
         display: flex;
         font-size: 15px;
-        margin-top: 5%; }
+        margin-top: 5%;
+        font-family: "Castoro Titling", cursive; }
       .inicio-contacto .contenedor #formu,
       .inicio-contacto .contenedor [name="mail"],
       .inicio-contacto .contenedor [name="mensaje"] {
@@ -544,7 +545,8 @@
         text-align: left;
         color: #1d1e1b;
         display: flex;
-        font-size: 15px; }
+        font-size: 15px;
+        font-family: "Castoro Titling", cursive; }
       .inicio-contacto .contenedor #formu,
       .inicio-contacto .contenedor [name="mail"],
       .inicio-contacto .contenedor [name="mensaje"] {
@@ -590,12 +592,11 @@
     .inicio-contacto .contenedor {
       flex: 1;
       padding: 2rem;
-      font-family: "Castoro Titling", cursive;
       align-items: center; }
       .inicio-contacto .contenedor .texto-formulario {
-        font-size: 18px;
+        font-size: 16px;
         color: #1d1e1b;
-        font-family: "Spectral";
+        font-family: "Castoro Titling", cursive;
         display: block;
         margin-bottom: 10px;
         text-align: center; }
@@ -604,7 +605,8 @@
         text-align: left;
         font-size: 17px;
         color: #1d1e1b;
-        margin-top: 5%; }
+        margin-top: 5%;
+        font-family: "Castoro Titling", cursive; }
       .inicio-contacto .contenedor #formu,
       .inicio-contacto .contenedor [name="mail"],
       .inicio-contacto .contenedor [name="mensaje"] {
@@ -617,18 +619,6 @@
         margin-top: 10px;
         padding: 10px;
         width: 100%; } }
-
-.disclaimer {
-  display: flex;
-  width: 100%;
-  margin-top: 10%;
-  justify-content: center;
-  flex-direction: column; }
-  .disclaimer .text-disclaimer {
-    font-size: 16px;
-    color: #1d1e1b;
-    font-family: "Spectral";
-    text-align: justify; }
 
 @media (max-width: 767px) {
   .inicio-ag {
@@ -795,3 +785,15 @@
       color: #4e4c4c;
       font-family: "Castoro Titling", cursive;
       font-size: 12px; }
+
+.disclaimer {
+  display: flex;
+  width: 100%;
+  margin-top: 10%;
+  justify-content: center;
+  flex-direction: column; }
+  .disclaimer .text-disclaimer {
+    font-size: 16px;
+    color: #1d1e1b;
+    font-family: "Spectral";
+    text-align: justify; }
