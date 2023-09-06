@@ -1,0 +1,59 @@
+@import "../utils/variables";
+@import "../utils/mixin";
+
+@media (max-width: $mobile) {
+  .inicio {
+    margin-top: 30%;
+    .caja-tres {
+      .lista {
+        max-width: 90%;
+        margin: 90px auto;
+        @include flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .imagen-lista {
+          width: 250px;
+          margin: 13px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: $min-tablet) and (max-width: $max-tablet) {
+  .inicio {
+    margin-top: 20%;
+    .caja-tres {
+      margin-top: 90px;
+
+      .lista {
+        max-width: 90%;
+        margin: 90px auto;
+        @include flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .imagen-lista {
+          width: 200px;
+          margin: 13px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: $desktop) {
+  .inicio {
+    margin-top: 10%;
+
+    .lista {
+      max-width: 75%;
+      margin: 90px auto;
+      @include flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      .imagen-lista {
+        width: 300px;
+        margin: 13px;
+      }
+    }
+  }
+}
+//globales

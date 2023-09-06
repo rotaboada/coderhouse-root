@@ -1,0 +1,33 @@
+@import "../utils/variables";
+
+@mixin sizes($width, $margin-top) {
+  width: $width;
+  margin-top: $margin-top;
+}
+
+@mixin flex {
+  display: flex;
+}
+@mixin titulos-desktop {
+  font-size: 30px;
+  color: $primary-color;
+  font-family: "Castoro Titling", cursive;
+  text-align: center;
+}
+@mixin titulos-tablet {
+  font-size: 25px;
+  color: $primary-color;
+  font-family: "Castoro Titling", cursive;
+  text-align: center;
+}
+@mixin titulos-mobile {
+  font-size: 20px;
+  color: $primary-color;
+  font-family: "Castoro Titling", cursive;
+  text-align: center;
+}
+@mixin font-footer {
+  color: #4e4c4c;
+  font-family: "Castoro Titling", cursive;
+  font-size: 12px;
+}

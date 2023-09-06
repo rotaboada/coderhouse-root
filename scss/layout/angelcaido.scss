@@ -1,0 +1,74 @@
+@import "../utils/variables";
+@import "../utils/mixin";
+
+@media (max-width: $mobile) {
+  .inicio-ag {
+    width: 100%;
+    text-align: center;
+    margin-top: 30%;
+    .titulo-ag {
+      font-size: 25px;
+      color: $primary-color;
+      font-family: "Castoro Titling", cursive;
+    }
+    .contenedor-ag {
+      width: 75%;
+      margin: auto;
+      .fan-img {
+        width: 200px;
+        padding: 5px;
+      }
+      .img-angelcaido {
+        width: 200px;
+        padding: 5px;
+      }
+    }
+  }
+}
+@media (min-width: $min-tablet) and (max-width: $max-tablet) {
+  .inicio-ag {
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+    .titulo-ag {
+      font-size: 30px;
+      color: $primary-color;
+      font-family: "Castoro Titling", cursive;
+    }
+    .contenedor-ag {
+      width: 75%;
+      margin: auto;
+      .fan-img {
+        width: 300px;
+        padding: 5px;
+      }
+      .img-angelcaido {
+        width: 400px;
+      }
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .inicio-ag {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    .titulo-ag {
+      font-size: 30px;
+      color: $primary-color;
+      font-family: "Castoro Titling", cursive;
+    }
+    .contenedor-ag {
+      width: 60%;
+      margin: auto;
+      .fan-img {
+        width: 400px;
+        padding: 5px;
+      }
+      .img-angelcaido {
+        width: 800px;
+      }
+    }
+  }
+}

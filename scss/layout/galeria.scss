@@ -1,0 +1,105 @@
+@import "../utils/variables";
+@import "../utils/mixin";
+
+@media (max-width: $mobile) {
+  .inicio-galeria {
+    @include flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 30%;
+
+    .titulo-galeria {
+      @include titulos-mobile;
+    }
+    .descripcion-galeria {
+      font-size: 20px;
+      color: $primary-color;
+      margin-bottom: 10px;
+      font-family: "Castoro Titling", cursive;
+    }
+    .contenedor-galeria {
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 10px;
+      justify-items: center;
+      align-items: center;
+
+      .imagen-galeria {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}
+@media (min-width: $min-tablet) and (max-width: $max-tablet) {
+  .inicio-galeria {
+    @include flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .titulo-galeria {
+      @include titulos-tablet;
+    }
+    .descripcion-galeria {
+      font-size: 20px;
+      color: $primary-color;
+      margin-bottom: 10px;
+      font-family: "Castoro Titling", cursive;
+    }
+    .contenedor-galeria {
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 10px;
+      justify-items: center;
+      align-items: center;
+
+      .imagen-galeria {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .inicio-galeria {
+    @include flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
+    margin-top: 15%;
+
+    .titulo-galeria {
+      @include titulos-desktop;
+    }
+    .descripcion-galeria {
+      font-size: 20px;
+      color: $primary-color;
+      margin-bottom: 10px;
+      font-family: "Castoro Titling", cursive;
+    }
+    .contenedor-galeria {
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 10px;
+      justify-items: center;
+      align-items: center;
+
+      .imagen-galeria {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}

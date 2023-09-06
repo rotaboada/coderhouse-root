@@ -1,0 +1,129 @@
+@import "../utils/variables";
+
+@media (max-width: $mobile) {
+  .navbar {
+    padding: 10px 0;
+
+    .container {
+      position: relative;
+
+      .logo {
+        max-height: 93px;
+        width: auto;
+      }
+    }
+    .navbar-toggler {
+      order: 2;
+      z-index: 100;
+    }
+    .navbar-collapse {
+      position: fixed;
+      top: -100%;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      transition: top 0.3s ease-in-out;
+      order: 1;
+    }
+    .navbar-collapse.show {
+      top: 0;
+    }
+
+    .navbar-nav {
+      margin-top: 15%;
+      margin-left: 5%;
+
+      .nav-link {
+        margin-left: 5%;
+        position: relative;
+        color: $primary-color;
+        font-family: Spectral;
+      }
+    }
+    .navbar-expand-lg .navbar-collapse {
+      order: 1;
+    }
+    .navbar-expand-lg .navbar-toggler {
+      order: 2;
+    }
+  }
+}
+
+@media (min-width: $min-tablet) and (max-width: $max-tablet) {
+  .navbar {
+    padding: 10px 0;
+
+    .container {
+      position: relative;
+
+      .logo {
+        max-height: 93px;
+        width: auto;
+      }
+    }
+    .navbar-toggler {
+      z-index: 100;
+    }
+    .navbar-collapse {
+      position: fixed;
+      top: -100%;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      transition: top 0.3s ease-in-out;
+    }
+    .navbar-collapse.show {
+      top: 0;
+    }
+
+    .navbar-nav {
+      margin-top: 15%;
+      margin-left: 5%;
+
+      .nav-link {
+        margin-left: 5%;
+      }
+    }
+    .navbar-expand-lg .navbar-collapse {
+      order: 1;
+    }
+    .navbar-expand-lg .navbar-toggler {
+      order: 2;
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .navbar {
+    padding: 10px 0;
+
+    .container {
+      position: relative;
+
+      .logo {
+        max-height: 93px;
+        width: auto;
+      }
+    }
+
+    .navbar-nav {
+      position: relative;
+      font-family: Spectral;
+
+      .nav-link {
+        position: relative;
+        color: $primary-color;
+        font-family: Spectral;
+      }
+      .nav-link:hover {
+        color: rgb(39, 35, 35);
+        animation: pulse;
+        animation-duration: 2s;
+      }
+    }
+  }
+}

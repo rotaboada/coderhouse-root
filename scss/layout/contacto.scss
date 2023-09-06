@@ -1,0 +1,180 @@
+@import "../utils/variables";
+@import "../utils/mixin";
+
+@media (max-width: $mobile) {
+  .inicio-contacto {
+    @include sizes(100%, 15%);
+    @include flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    .contenedor-info {
+      flex: 1;
+      padding: 2rem;
+      font-family: "Castoro Titling", cursive;
+      align-items: center;
+      margin-top: 10%;
+      order: 2;
+
+      .texto-formulario {
+        font-size: 13px;
+        color: $primary-color;
+        font-family: "Castoro Titling", cursive;
+        display: block;
+      }
+    }
+    .contenedor {
+      flex: 1;
+      padding: 2rem;
+      font-family: "Castoro Titling", cursive;
+      align-items: center;
+      order: 1;
+      margin-top: 10%;
+
+      .formulario {
+        text-align: left;
+        color: $primary-color;
+        @include flex;
+        font-size: 15px;
+        margin-top: 5%;
+      }
+      #formu,
+      [name="mail"],
+      [name="mensaje"] {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      #enviar {
+        @include sizes(100%, 10px);
+        background-color: $primary-color;
+        color: white;
+        font-family: "Castoro Titling", cursive;
+        padding: 10px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media (min-width: $min-tablet) and (max-width: $max-tablet) {
+  .inicio-contacto {
+    @include sizes(100%, 5%);
+    @include flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    height: 80vh;
+    .contenedor-info {
+      flex: 1;
+      padding: 2rem;
+      font-family: "Castoro Titling", cursive;
+      align-items: center;
+      order: 2;
+      .desc-formulario {
+        font-size: 15px;
+        color: $primary-color;
+        font-family: "Spectral";
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    }
+
+    .contenedor {
+      flex: 1;
+      padding: 2rem;
+      font-family: "Castoro Titling", cursive;
+      align-items: center;
+      order: 1;
+      margin-top: 10%;
+      .texto-formulario {
+        font-size: 18px;
+        color: $primary-color;
+        font-family: "Spectral";
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      .formulario {
+        text-align: left;
+        color: $primary-color;
+        @include flex;
+        font-size: 15px;
+      }
+      #formu,
+      [name="mail"],
+      [name="mensaje"] {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      #enviar {
+        @include sizes(100%, 10px);
+        background-color: $primary-color;
+        color: white;
+        font-family: "Castoro Titling", cursive;
+        padding: 10px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .inicio-contacto {
+    width: 100%;
+    @include flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin-top: 10%;
+    .contenedor-info {
+      flex: 1;
+      padding: 2rem;
+      align-items: center;
+      .desc-formulario {
+        font-size: 15px;
+        color: $primary-color;
+        font-family: "Castoro Titling", cursive;
+        display: block;
+        margin-bottom: 10px;
+        text-align: left;
+      }
+    }
+    .contenedor {
+      flex: 1;
+      padding: 2rem;
+      font-family: "Castoro Titling", cursive;
+      align-items: center;
+      .texto-formulario {
+        font-size: 18px;
+        color: $primary-color;
+        font-family: "Spectral";
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      .formulario {
+        text-align: left;
+        font-size: 17px;
+        color: $primary-color;
+        @include flex;
+        margin-top: 5%;
+      }
+      #formu,
+      [name="mail"],
+      [name="mensaje"] {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      #enviar {
+        background-color: $primary-color;
+        color: white;
+        font-family: "Castoro Titling", cursive;
+        margin-top: 10px;
+        padding: 10px;
+        width: 100%;
+      }
+    }
+  }
+}

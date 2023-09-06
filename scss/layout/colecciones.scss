@@ -1,0 +1,161 @@
+@import "../utils/variables";
+@import "../utils/mixin";
+
+@media (max-width: $mobile) {
+  .inicio-colecciones {
+    text-align: center;
+    display: block;
+    margin: auto;
+    @include sizes(100%, 30%);
+    height: 110vh;
+
+    .titulo-colecciones {
+      @include titulos-mobile;
+      grid-column: 1 !important;
+      grid-row: auto;
+    }
+
+    .contenedor-fantasia {
+      margin: 20px auto 10px auto;
+
+      .imagen-colecciones {
+        width: 300px;
+        padding: 5px;
+      }
+    }
+    .texto-fantasia {
+      font-family: "Times New Roman", Times, serif;
+      color: $primary-color;
+      font-size: 18px;
+      text-align: center;
+      grid-row: 3 / 4;
+    }
+    .contenedor-angel {
+      margin: 20px auto 10px auto;
+
+      .imagen-colecciones {
+        width: 300px;
+        padding: 5px;
+      }
+    }
+    .texto-angel  {
+      font-family: "Times New Roman", Times, serif;
+      color: $primary-color;
+      font-size: 18px;
+      text-align: center;
+      grid-row: 3 / 4;
+    }
+  }
+}
+@media (min-width: $min-tablet) and (max-width: $max-tablet) {
+  .inicio-colecciones {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 20%;
+
+    .titulo-colecciones {
+      @include titulos-tablet;
+      grid-column: 1 !important;
+      grid-row: auto;
+    }
+
+    .contenedor-fantasia {
+      margin: 20px auto 10px auto;
+
+      .imagen-colecciones {
+        width: 300px;
+        border: 1px solid $primary-color;
+        padding: 5px;
+      }
+    }
+    .texto-fantasia {
+      font-family: "Times New Roman", Times, serif;
+      color: #1d1e1b;
+      font-size: 18px;
+      text-align: center;
+      grid-row: 3 / 4;
+    }
+    .contenedor-angel {
+      margin: 20px auto 10px auto;
+
+      .imagen-colecciones {
+        width: 300px;
+        padding: 5px;
+      }
+    }
+    .texto-angel  {
+      font-family: "Times New Roman", Times, serif;
+      color: $primary-color;
+      font-size: 18px;
+      text-align: center;
+      grid-row: 3 / 4;
+    }
+  }
+}
+@media (min-width: $desktop) {
+  .inicio-colecciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    @include sizes(70%, 15%);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    .titulo-colecciones {
+      @include titulos-desktop;
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+    }
+
+    .contenedor-fantasia {
+      grid-row: 2 / 3;
+      grid-column: span 1;
+      .imagen-colecciones {
+        width: 300px;
+        padding: 5px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+      }
+      .imagen-colecciones:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+    .texto-fantasia {
+      font-family: "Times New Roman", Times, serif;
+      color: $primary-color;
+      font-size: 18px;
+      text-align: center;
+      grid-row: 3 / 4;
+    }
+    .contenedor-angel {
+      grid-row: 2 / 3;
+      grid-column: span 1;
+      .imagen-colecciones {
+        width: 300px;
+        padding: 5px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+      }
+      .imagen-colecciones:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+    .texto-angel {
+      font-family: "Times New Roman", Times, serif;
+      color: $primary-color;
+      font-size: 18px;
+      text-align: center;
+      grid-row: 3 / 4;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import "../utils/variables";
+@import "../utils/mixin";
+
+@media (max-width: $mobile) {
+  .inicio-fantasia {
+    text-align: center;
+    @include sizes(100%, 30%);
+    .titulo-ag {
+      @include titulos-mobile;
+    }
+    .contenedor-fan {
+      width: 75%;
+      margin: auto;
+      .fan-img {
+        width: 200px;
+        padding: 5px;
+      }
+    }
+  }
+}
+@media (min-width: $min-tablet) and (max-width: $max-tablet) {
+  .inicio-fantasia {
+    @include sizes(100%, 15%);
+    @include flex;
+    flex-direction: column;
+    .titulo-ag {
+      @include titulos-tablet;
+    }
+    .contenedor-fan {
+      width: 69%;
+      margin: auto;
+      align-items: center;
+      .fan-img {
+        width: 250px;
+        padding: 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .inicio-fantasia {
+    @include sizes(100%, 10%);
+    text-align: center;
+    .titulo-ag {
+      @include titulos-desktop;
+    }
+    .contenedor-fan {
+      width: 60%;
+      margin: auto;
+      .fan-img {
+        width: 400px;
+        padding: 5px;
+      }
+    }
+  }
+}
