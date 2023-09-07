@@ -127,10 +127,7 @@
         overflow: hidden;
         z-index: 1;
         .imagen-colecciones {
-          -webkit-transform: scale(1);
-          transform: scale(1);
-          -webkit-transition: 0.3s ease-in-out;
-          transition: 0.3s ease-in-out;
+          @include animacion-zoom;
           width: 300px;
         }
         .imagen-colecciones:hover {
@@ -163,10 +160,7 @@
         overflow: hidden;
         z-index: 1;
         .imagen-colecciones {
-          -webkit-transform: scale(1);
-          transform: scale(1);
-          -webkit-transition: 0.3s ease-in-out;
-          transition: 0.3s ease-in-out;
+          @include animacion-zoom;
           width: 300px;
         }
         .imagen-colecciones:hover {

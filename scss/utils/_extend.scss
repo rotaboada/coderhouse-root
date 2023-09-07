@@ -1,0 +1,10 @@
+@import "../utils/variables";
+@import "../utils/mixin";
+%font-castoro {
+  color: $primary-color;
+  font-family: "Castoro Titling", cursive;
+}
+%font-spectral {
+  color: $primary-color;
+  font-family: "Spectral";
+}

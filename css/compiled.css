@@ -1,4 +1,12 @@
 @import url(animate.css/animate.css);
+.inicio .caja-dos .introduccion, .inicio .caja-tres .intro-dos, .footer .caja-footer .texto-footer, .footer .redes ul .links-footer {
+  color: #1d1e1b;
+  font-family: "Castoro Titling", cursive; }
+
+.inicio .caja-tres .intro-dos .link-tienda, .disclaimer .text-disclaimer {
+  color: #1d1e1b;
+  font-family: "Spectral"; }
+
 * {
   margin: 0;
   padding: 0;
@@ -638,31 +646,32 @@
       flex: 1;
       padding: 2rem;
       align-items: center; }
-      .inicio-contacto .contenedor .texto-formulario {
+      .inicio-contacto .contenedor form .texto-formulario {
         font-size: 16px;
         color: #1d1e1b;
         font-family: "Castoro Titling", cursive;
         display: block;
         margin-bottom: 10px;
         text-align: center; }
-      .inicio-contacto .contenedor .formulario {
+      .inicio-contacto .contenedor form .formulario {
         display: flex;
         text-align: left;
         font-size: 17px;
         color: #1d1e1b;
         margin-top: 5%;
         font-family: "Castoro Titling", cursive; }
-      .inicio-contacto .contenedor #formu,
-      .inicio-contacto .contenedor [name="mail"],
-      .inicio-contacto .contenedor [name="mensaje"] {
+      .inicio-contacto .contenedor form #formu,
+      .inicio-contacto .contenedor form [name="mail"],
+      .inicio-contacto .contenedor form [name="mensaje"] {
         width: 100%;
         box-sizing: border-box; }
-      .inicio-contacto .contenedor #enviar {
+      .inicio-contacto .contenedor form #enviar {
         background-color: #1d1e1b;
         color: white;
         font-family: "Castoro Titling", cursive;
-        margin-top: 10px;
         padding: 10px;
+        font-size: 18px;
+        margin-top: 10px;
         width: 100%; } }
 
 @media (max-width: 767px) {
@@ -790,21 +799,14 @@
   padding: 5px; }
   .inicio .caja-dos .introduccion {
     text-align: justify;
-    font-family: "Castoro Titling", cursive;
     font-size: 20px;
-    color: #1d1e1b;
     margin-top: 8%; }
 
 .inicio .caja-tres {
   margin-top: 5rem; }
   .inicio .caja-tres .intro-dos {
     text-align: center;
-    font-family: "Castoro Titling", cursive;
-    font-size: 25px;
-    color: #1d1e1b; }
-    .inicio .caja-tres .intro-dos .link-tienda {
-      color: #1d1e1b;
-      font-family: Spectral; }
+    font-size: 25px; }
 
 .footer {
   width: 100%;
@@ -816,8 +818,6 @@
     width: 100%;
     margin: 0px 0px 20px 20px; }
     .footer .caja-footer .texto-footer {
-      color: #4e4c4c;
-      font-family: "Castoro Titling", cursive;
       font-size: 12px; }
   .footer .redes ul {
     width: 96%;
@@ -827,8 +827,6 @@
     margin: 0px 30px 20px 0px;
     list-style: none; }
     .footer .redes ul .links-footer {
-      color: #4e4c4c;
-      font-family: "Castoro Titling", cursive;
       font-size: 12px; }
 
 .disclaimer {
@@ -839,6 +837,4 @@
   flex-direction: column; }
   .disclaimer .text-disclaimer {
     font-size: 16px;
-    color: #1d1e1b;
-    font-family: "Spectral";
     text-align: justify; }

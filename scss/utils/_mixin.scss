@@ -26,8 +26,16 @@
   font-family: "Castoro Titling", cursive;
   text-align: center;
 }
-@mixin font-footer {
-  color: $footer-color;
+
+@mixin boton-enviar {
+  background-color: $primary-color;
+  color: white;
   font-family: "Castoro Titling", cursive;
-  font-size: 12px;
+  padding: 10px;
+}
+@mixin animacion-zoom {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
