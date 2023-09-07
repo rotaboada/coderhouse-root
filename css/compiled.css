@@ -1,9 +1,9 @@
 @import url(animate.css/animate.css);
-.inicio .caja-dos .introduccion, .inicio .caja-tres .intro-dos, .footer .caja-footer .texto-footer, .footer .redes ul .links-footer {
+.inicio .caja-dos .introduccion, .inicio .caja-tres .intro-dos, .footer .caja-footer .texto-footer {
   color: #1d1e1b;
   font-family: "Castoro Titling", cursive; }
 
-.inicio .caja-tres .intro-dos .link-tienda, .disclaimer .text-disclaimer {
+.inicio .caja-tres .intro-dos .link-tienda, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
   color: #1d1e1b;
   font-family: "Spectral"; }
 
@@ -827,7 +827,9 @@
     margin: 0px 30px 20px 0px;
     list-style: none; }
     .footer .redes ul .links-footer {
-      font-size: 12px; }
+      font-size: 12px;
+      text-decoration: none;
+      text-transform: uppercase; }
 
 .disclaimer {
   display: flex;

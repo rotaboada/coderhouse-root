@@ -62,8 +62,10 @@
     margin: 0px 30px 20px 0px;
     list-style: none;
     .links-footer {
-      @extend %font-castoro;
+      @extend %font-spectral;
       font-size: 12px;
+      text-decoration: none;
+      text-transform: uppercase;
     }
   }
 }
