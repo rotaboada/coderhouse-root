@@ -782,6 +782,14 @@
         width: 400px;
         padding: 5px; } }
 
+.inicio .caja-dos .introduccion, .inicio .caja-tres .intro-dos, .footer .caja-footer .texto-footer {
+  color: #1d1e1b;
+  font-family: "Castoro Titling", cursive; }
+
+.inicio .caja-tres .intro-dos .link-tienda, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
+  color: #1d1e1b;
+  font-family: "Spectral"; }
+
 .inicio .intro {
   display: block;
   align-items: center; }
