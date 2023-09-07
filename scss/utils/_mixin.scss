@@ -27,7 +27,7 @@
   text-align: center;
 }
 @mixin font-footer {
-  color: #4e4c4c;
+  color: $footer-color;
   font-family: "Castoro Titling", cursive;
   font-size: 12px;
 }
