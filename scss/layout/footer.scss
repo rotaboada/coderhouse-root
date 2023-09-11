@@ -4,8 +4,7 @@
 @media (max-width: $mobile) {
   .footer {
     width: 100%;
-    @include flex;
-    align-items: center;
+    @include flex(row, center, null);
     height: 28vh;
     margin-top: 35%;
   }
@@ -13,8 +12,7 @@
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .footer {
     width: 100%;
-    @include flex;
-    align-items: center;
+    @include flex(row, center, null);
     height: 28vh;
   }
 }

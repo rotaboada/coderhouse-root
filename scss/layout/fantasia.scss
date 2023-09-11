@@ -6,7 +6,7 @@
     text-align: center;
     @include sizes(100%, 30%);
     .titulo-ag {
-      @include titulos-mobile;
+      @include titulos(20px);
     }
     .contenedor-fan {
       width: 75%;
@@ -21,10 +21,9 @@
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .inicio-fantasia {
     @include sizes(100%, 15%);
-    @include flex;
-    flex-direction: column;
+    @include flex(column, null, null);
     .titulo-ag {
-      @include titulos-tablet;
+      @include titulos(25px);
     }
     .contenedor-fan {
       width: 69%;
@@ -43,7 +42,7 @@
     @include sizes(100%, 10%);
     text-align: center;
     .titulo-ag {
-      @include titulos-desktop;
+      @include titulos(30px);
     }
     .contenedor-fan {
       width: 60%;

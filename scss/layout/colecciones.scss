@@ -10,7 +10,7 @@
     height: 140vh;
 
     .titulo-colecciones {
-      @include titulos-mobile;
+      @include titulos(20px);
       grid-column: 1 !important;
       grid-row: auto;
     }
@@ -58,7 +58,7 @@
     margin-top: 20%;
 
     .titulo-colecciones {
-      @include titulos-tablet;
+      @include titulos(25px);
       grid-column: 1 !important;
       grid-row: auto;
     }
@@ -109,7 +109,7 @@
     text-align: center;
 
     .titulo-colecciones {
-      @include titulos-desktop;
+      @include titulos(30px);
       grid-column: 1 / 3;
       grid-row: 1 / 2;
     }
@@ -119,23 +119,20 @@
       grid-row: 2 / 3;
       grid-column: span 1;
       margin: auto;
-      .caja-colecciones {
-        width: 100%;
-        height: 375px;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        z-index: 1;
-        .imagen-colecciones {
-          @include animacion-zoom;
-          width: 300px;
-        }
-        .imagen-colecciones:hover {
-          -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-        }
+      height: 375px;
+      padding: 0;
+      overflow: hidden;
+      z-index: 1;
+      .imagen-colecciones {
+        @include animacion-zoom;
+        width: 300px;
       }
-      .caja-colecciones:hover .imagen-colecciones {
+      .imagen-colecciones:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+
+      .contenedor-fantasia:hover .imagen-colecciones {
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
       }
@@ -152,23 +149,20 @@
       grid-row: 2 / 3;
       grid-column: span 1;
       margin: auto;
-      .caja-colecciones {
-        width: 100%;
-        height: 375px;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        z-index: 1;
-        .imagen-colecciones {
-          @include animacion-zoom;
-          width: 300px;
-        }
-        .imagen-colecciones:hover {
-          -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-        }
+      height: 375px;
+      padding: 0;
+      overflow: hidden;
+      z-index: 1;
+      .imagen-colecciones {
+        @include animacion-zoom;
+        width: 300px;
       }
-      .caja-colecciones:hover .imagen-colecciones {
+      .imagen-colecciones:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+
+      .contenedor-angel:hover .imagen-colecciones {
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
       }

@@ -3,15 +3,12 @@
 
 @media (max-width: $mobile) {
   .inicio-galeria {
-    @include flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include flex(column, center, center);
     height: auto;
     margin-top: 30%;
 
     .titulo-galeria {
-      @include titulos-mobile;
+      @include titulos(20px);
     }
     .descripcion-galeria {
       font-size: 20px;
@@ -37,14 +34,12 @@
 }
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .inicio-galeria {
-    @include flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include flex(column, center, center);
+
     height: 100vh;
 
     .titulo-galeria {
-      @include titulos-tablet;
+      @include titulos(25px);
     }
     .descripcion-galeria {
       font-size: 20px;
@@ -71,15 +66,12 @@
 
 @media (min-width: $desktop) {
   .inicio-galeria {
-    @include flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include flex(column, center, center);
     height: 130vh;
     margin-top: 15%;
 
     .titulo-galeria {
-      @include titulos-desktop;
+      @include titulos(30px);
     }
     .descripcion-galeria {
       font-size: 20px;

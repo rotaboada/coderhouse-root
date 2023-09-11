@@ -5,23 +5,15 @@
   margin-top: $margin-top;
 }
 
-@mixin flex {
+@mixin flex($direction, $align, $justify) {
   display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
 }
-@mixin titulos-desktop {
-  font-size: 30px;
-  color: $primary-color;
-  font-family: "Castoro Titling", cursive;
-  text-align: center;
-}
-@mixin titulos-tablet {
-  font-size: 25px;
-  color: $primary-color;
-  font-family: "Castoro Titling", cursive;
-  text-align: center;
-}
-@mixin titulos-mobile {
-  font-size: 20px;
+
+@mixin titulos($font-size: 30px) {
+  font-size: $font-size;
   color: $primary-color;
   font-family: "Castoro Titling", cursive;
   text-align: center;

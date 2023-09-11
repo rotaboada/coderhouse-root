@@ -5,11 +5,9 @@
   .inicio-bio {
     height: 80vh;
     @include sizes(100%, 40%);
-    @include flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column, null, center);
     .titulo-bio {
-      @include titulos-mobile;
+      @include titulos(20px);
     }
     .texto-bio {
       color: $primary-color;
@@ -23,13 +21,11 @@
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .inicio-bio {
     @include sizes(100%, 30%);
-    @include flex;
+    @include flex(column, null, center);
     height: 65vh;
-    flex-direction: column;
-    align-items: center;
 
     .titulo-bio {
-      @include titulos-tablet;
+      @include titulos(25px);
     }
     .texto-bio {
       color: $primary-color;
@@ -44,12 +40,11 @@
 @media (min-width: $desktop) {
   .inicio-bio {
     @include sizes(100%, 20%);
-    @include flex;
+    @include flex(column, null, center);
     height: 40vh;
-    align-items: center;
-    flex-direction: column;
+
     .titulo-bio {
-      @include titulos-desktop;
+      @include titulos(30px);
     }
     .texto-bio {
       color: $primary-color;
