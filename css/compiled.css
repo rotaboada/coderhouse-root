@@ -83,7 +83,9 @@
 
 @media (min-width: 992px) {
   .navbar {
-    padding: 10px 0; }
+    padding: 10px 0;
+    position: fixed;
+    z-index: 100; }
     .navbar .container {
       position: relative; }
       .navbar .container .logo {
@@ -823,17 +825,15 @@
   align-items: center;
   height: 10vh; }
   .footer .caja-footer {
-    width: 100%;
-    margin: 0px 0px 20px 20px; }
+    width: 100%; }
     .footer .caja-footer .texto-footer {
       font-size: 12px; }
   .footer .redes ul {
     width: 96%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin: 0px 30px 20px 0px;
-    list-style: none; }
+    list-style: none;
+    text-align: right; }
     .footer .redes ul .links-footer {
       font-size: 12px;
       text-decoration: none;

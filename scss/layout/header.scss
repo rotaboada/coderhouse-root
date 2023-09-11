@@ -102,6 +102,8 @@
 @media (min-width: $desktop) {
   .navbar {
     padding: 10px 0;
+    position: fixed;
+    z-index: 100;
 
     .container {
       position: relative;

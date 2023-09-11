@@ -50,24 +50,25 @@
 
   .caja-footer {
     width: 100%;
-    margin: 0px 0px 20px 20px;
     .texto-footer {
       @extend %font-castoro;
       font-size: 12px;
     }
   }
-  .redes ul {
-    width: 96%;
-    @include flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 0px 30px 20px 0px;
-    list-style: none;
-    .links-footer {
-      @extend %font-spectral;
-      font-size: 12px;
-      text-decoration: none;
-      text-transform: uppercase;
+  .redes {
+    ul {
+      width: 96%;
+      @include flex;
+      flex-direction: column;
+      list-style: none;
+      text-align: right;
+
+      .links-footer {
+        @extend %font-spectral;
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
     }
   }
 }
