@@ -17,32 +17,26 @@
 
     .contenedor-fantasia {
       margin: 20px auto 10px auto;
-      .caja-colecciones {
-        .imagen-colecciones {
-          width: 300px;
-          padding: 5px;
-        }
+      .imagen-colecciones {
+        width: 300px;
+        padding: 5px;
       }
     }
     .texto-fantasia {
       font-family: "Times New Roman", Times, serif;
-      color: $primary-color;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4;
     }
     .contenedor-angel {
       margin: 20px auto 10px auto;
-      .caja-colecciones {
-        .imagen-colecciones {
-          width: 300px;
-          padding: 5px;
-        }
+      .imagen-colecciones {
+        width: 300px;
+        padding: 5px;
       }
     }
     .texto-angel {
       font-family: "Times New Roman", Times, serif;
-      color: $primary-color;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4;
@@ -65,32 +59,27 @@
 
     .contenedor-fantasia {
       margin: 20px auto 10px auto;
-      .caja-colecciones {
-        .imagen-colecciones {
-          width: 300px;
-          padding: 5px;
-        }
+      .imagen-colecciones {
+        width: 300px;
+        padding: 5px;
       }
     }
     .texto-fantasia {
       font-family: "Times New Roman", Times, serif;
-      color: #1d1e1b;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4;
     }
     .contenedor-angel {
       margin: 20px auto 10px auto;
-      .caja-colecciones {
-        .imagen-colecciones {
-          width: 300px;
-          padding: 5px;
-        }
+
+      .imagen-colecciones {
+        width: 300px;
+        padding: 5px;
       }
     }
     .texto-angel {
       font-family: "Times New Roman", Times, serif;
-      color: $primary-color;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4;
@@ -139,7 +128,6 @@
     }
     .texto-fantasia {
       font-family: "Times New Roman", Times, serif;
-      color: $primary-color;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4;
@@ -169,7 +157,6 @@
     }
     .texto-angel {
       font-family: "Times New Roman", Times, serif;
-      color: $primary-color;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4;

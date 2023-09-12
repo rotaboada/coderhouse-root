@@ -1,18 +1,17 @@
 @import "../utils/variables";
 @import "../utils/mixin";
+@import "../utils/globals.scss";
 
 @media (max-width: $mobile) {
   .inicio-bio {
     height: 80vh;
-    @include sizes(100%, 40%);
-    @include flex(column, null, center);
+    @include sizes(100%, 20%);
+    @include flex(column, center, center);
     .titulo-bio {
       @include titulos(20px);
     }
     .texto-bio {
-      color: $primary-color;
       font-size: 14px;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       width: 80%;
     }
@@ -21,16 +20,14 @@
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .inicio-bio {
     @include sizes(100%, 30%);
-    @include flex(column, null, center);
+    @include flex(column, center, center);
     height: 65vh;
 
     .titulo-bio {
       @include titulos(25px);
     }
     .texto-bio {
-      color: $primary-color;
       font-size: 16px;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       width: 60%;
     }
@@ -40,16 +37,14 @@
 @media (min-width: $desktop) {
   .inicio-bio {
     @include sizes(100%, 20%);
-    @include flex(column, null, center);
+    @include flex(column, center, center);
     height: 40vh;
 
     .titulo-bio {
       @include titulos(30px);
     }
     .texto-bio {
-      color: $primary-color;
       font-size: 18px;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       width: 60%;
     }

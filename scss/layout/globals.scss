@@ -26,7 +26,6 @@
     padding: 5px;
 
     .introduccion {
-      @extend %font-castoro;
       text-align: justify;
       font-size: 20px;
       margin-top: 8%;
@@ -35,7 +34,6 @@
   .caja-tres {
     margin-top: 5rem;
     .intro-dos {
-      @extend %font-castoro;
       text-align: center;
       font-size: 25px;
       .link-tienda {
@@ -53,7 +51,6 @@
   .caja-footer {
     width: 100%;
     .texto-footer {
-      @extend %font-castoro;
       font-size: 12px;
     }
   }

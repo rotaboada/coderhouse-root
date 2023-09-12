@@ -14,8 +14,6 @@
 
 @mixin titulos($font-size: 30px) {
   font-size: $font-size;
-  color: $primary-color;
-  font-family: "Castoro Titling", cursive;
   text-align: center;
 }
 

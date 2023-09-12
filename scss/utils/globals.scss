@@ -1,7 +1,15 @@
+@import "../utils/variables";
+@import "../utils/mixin";
+@import "../utils/extend";
+
 * {
   margin: 0;
 
   padding: 0;
 
   box-sizing: border-box;
+}
+.font {
+  font-family: "Castoro Titling", cursive;
+  color: $primary-color;
 }

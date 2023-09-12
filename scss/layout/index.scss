@@ -35,7 +35,6 @@
         max-width: 90%;
         margin: 90px auto;
         @include flex(row, null, center);
-        justify-content: center;
         flex-wrap: wrap;
         .caja-img {
           .imagen-lista {

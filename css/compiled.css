@@ -1,7 +1,7 @@
 @import url(animate.css/animate.css);
-.inicio .caja-dos .introduccion, .inicio .caja-tres .intro-dos, .footer .caja-footer .texto-footer {
+.inicio .caja-tres .intro-dos .link-tienda, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
   color: #1d1e1b;
-  font-family: "Castoro Titling", cursive; }
+  font-family: "Spectral"; }
 
 .inicio .caja-tres .intro-dos .link-tienda, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
   color: #1d1e1b;
@@ -11,6 +11,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+.font {
+  font-family: "Castoro Titling", cursive;
+  color: #1d1e1b; }
 
 @media (max-width: 767px) {
   .navbar {
@@ -133,7 +137,6 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        justify-content: center;
         flex-wrap: wrap; }
         .inicio .caja-tres .lista .caja-img .imagen-lista {
           width: 200px;
@@ -188,23 +191,33 @@
     align-items: center;
     height: 28vh; } }
 
+.inicio .caja-tres .intro-dos .link-tienda, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
+  color: #1d1e1b;
+  font-family: "Spectral"; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.font {
+  font-family: "Castoro Titling", cursive;
+  color: #1d1e1b; }
+
 @media (max-width: 767px) {
   .inicio-bio {
     height: 80vh;
     width: 100%;
-    margin-top: 40%;
+    margin-top: 20%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center; }
     .inicio-bio .titulo-bio {
       font-size: 20px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center; }
     .inicio-bio .texto-bio {
-      color: #1d1e1b;
       font-size: 14px;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       width: 80%; } }
 
@@ -214,17 +227,14 @@
     margin-top: 30%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     height: 65vh; }
     .inicio-bio .titulo-bio {
       font-size: 25px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center; }
     .inicio-bio .texto-bio {
-      color: #1d1e1b;
       font-size: 16px;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       width: 60%; } }
 
@@ -234,17 +244,14 @@
     margin-top: 20%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     height: 40vh; }
     .inicio-bio .titulo-bio {
       font-size: 30px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center; }
     .inicio-bio .texto-bio {
-      color: #1d1e1b;
       font-size: 18px;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       width: 60%; } }
 
@@ -258,30 +265,26 @@
     height: 140vh; }
     .inicio-colecciones .titulo-colecciones {
       font-size: 20px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       grid-column: 1 !important;
       grid-row: auto; }
     .inicio-colecciones .contenedor-fantasia {
       margin: 20px auto 10px auto; }
-      .inicio-colecciones .contenedor-fantasia .caja-colecciones .imagen-colecciones {
+      .inicio-colecciones .contenedor-fantasia .imagen-colecciones {
         width: 300px;
         padding: 5px; }
     .inicio-colecciones .texto-fantasia {
       font-family: "Times New Roman", Times, serif;
-      color: #1d1e1b;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4; }
     .inicio-colecciones .contenedor-angel {
       margin: 20px auto 10px auto; }
-      .inicio-colecciones .contenedor-angel .caja-colecciones .imagen-colecciones {
+      .inicio-colecciones .contenedor-angel .imagen-colecciones {
         width: 300px;
         padding: 5px; }
     .inicio-colecciones .texto-angel {
       font-family: "Times New Roman", Times, serif;
-      color: #1d1e1b;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4; } }
@@ -295,30 +298,26 @@
     margin-top: 20%; }
     .inicio-colecciones .titulo-colecciones {
       font-size: 25px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       grid-column: 1 !important;
       grid-row: auto; }
     .inicio-colecciones .contenedor-fantasia {
       margin: 20px auto 10px auto; }
-      .inicio-colecciones .contenedor-fantasia .caja-colecciones .imagen-colecciones {
+      .inicio-colecciones .contenedor-fantasia .imagen-colecciones {
         width: 300px;
         padding: 5px; }
     .inicio-colecciones .texto-fantasia {
       font-family: "Times New Roman", Times, serif;
-      color: #1d1e1b;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4; }
     .inicio-colecciones .contenedor-angel {
       margin: 20px auto 10px auto; }
-      .inicio-colecciones .contenedor-angel .caja-colecciones .imagen-colecciones {
+      .inicio-colecciones .contenedor-angel .imagen-colecciones {
         width: 300px;
         padding: 5px; }
     .inicio-colecciones .texto-angel {
       font-family: "Times New Roman", Times, serif;
-      color: #1d1e1b;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4; } }
@@ -336,8 +335,6 @@
     text-align: center; }
     .inicio-colecciones .titulo-colecciones {
       font-size: 30px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       grid-column: 1 / 3;
       grid-row: 1 / 2; }
@@ -364,7 +361,6 @@
         transform: scale(1.1); }
     .inicio-colecciones .texto-fantasia {
       font-family: "Times New Roman", Times, serif;
-      color: #1d1e1b;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4; }
@@ -391,7 +387,6 @@
         transform: scale(1.1); }
     .inicio-colecciones .texto-angel {
       font-family: "Times New Roman", Times, serif;
-      color: #1d1e1b;
       font-size: 18px;
       text-align: center;
       grid-row: 3 / 4; } }
@@ -406,14 +401,10 @@
     margin-top: 30%; }
     .inicio-galeria .titulo-galeria {
       font-size: 20px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center; }
     .inicio-galeria .descripcion-galeria {
       font-size: 20px;
-      color: #1d1e1b;
-      margin-bottom: 10px;
-      font-family: "Castoro Titling", cursive; }
+      margin-bottom: 10px; }
     .inicio-galeria .contenedor-galeria {
       width: 80%;
       display: grid;
@@ -435,14 +426,10 @@
     height: 100vh; }
     .inicio-galeria .titulo-galeria {
       font-size: 25px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center; }
     .inicio-galeria .descripcion-galeria {
       font-size: 20px;
-      color: #1d1e1b;
-      margin-bottom: 10px;
-      font-family: "Castoro Titling", cursive; }
+      margin-bottom: 10px; }
     .inicio-galeria .contenedor-galeria {
       width: 80%;
       display: grid;
@@ -465,14 +452,10 @@
     margin-top: 15%; }
     .inicio-galeria .titulo-galeria {
       font-size: 30px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center; }
     .inicio-galeria .descripcion-galeria {
       font-size: 20px;
-      color: #1d1e1b;
-      margin-bottom: 10px;
-      font-family: "Castoro Titling", cursive; }
+      margin-bottom: 10px; }
     .inicio-galeria .contenedor-galeria {
       width: 80%;
       display: grid;
@@ -494,8 +477,6 @@
     flex-wrap: wrap-reverse; }
     .inicio-contacto .titulo-contacto {
       font-size: 20px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       text-align: center;
       margin-top: 20%;
@@ -504,28 +485,22 @@
     .inicio-contacto .contenedor-info {
       flex: 1;
       padding: 2rem;
-      font-family: "Castoro Titling", cursive;
       align-items: center;
       order: 2; }
       .inicio-contacto .contenedor-info .texto-formulario {
         font-size: 13px;
-        color: #1d1e1b;
-        font-family: "Castoro Titling", cursive;
         display: block; }
     .inicio-contacto .contenedor {
       flex: 1;
       padding: 2rem;
-      font-family: "Castoro Titling", cursive;
       align-items: center;
       order: 1;
       margin-top: 10%; }
       .inicio-contacto .contenedor .formulario {
         text-align: left;
-        color: #1d1e1b;
         display: flex;
         font-size: 15px;
-        margin-top: 5%;
-        font-family: "Castoro Titling", cursive; }
+        margin-top: 5%; }
       .inicio-contacto .contenedor #formu,
       .inicio-contacto .contenedor [name="mail"],
       .inicio-contacto .contenedor [name="mensaje"] {
@@ -551,8 +526,6 @@
     height: 80vh; }
     .inicio-contacto .titulo-contacto {
       font-size: 25px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       text-align: center;
       margin-top: 20%;
@@ -568,7 +541,6 @@
       flex-wrap: wrap; }
       .inicio-contacto .contenedor-info .desc-formulario {
         font-size: 15px;
-        color: #1d1e1b;
         font-family: "Spectral";
         margin-bottom: 10px;
         text-align: center; }
@@ -579,29 +551,23 @@
         order: 2; }
         .inicio-contacto .contenedor-info .disclaimer .text-disclaimer {
           font-size: 15px;
-          color: #1d1e1b;
           font-family: "Spectral";
           text-align: justify; }
     .inicio-contacto .contenedor {
       flex: 1;
       padding: 2rem;
-      font-family: "Castoro Titling", cursive;
       align-items: center;
       order: 1;
       margin-top: 5%; }
       .inicio-contacto .contenedor .texto-formulario {
         font-size: 18px;
-        color: #1d1e1b;
-        font-family: "Castoro Titling", cursive;
         display: block;
         margin-bottom: 10px;
         text-align: center; }
       .inicio-contacto .contenedor .formulario {
         text-align: left;
-        color: #1d1e1b;
         display: flex;
-        font-size: 15px;
-        font-family: "Castoro Titling", cursive; }
+        font-size: 15px; }
       .inicio-contacto .contenedor #formu,
       .inicio-contacto .contenedor [name="mail"],
       .inicio-contacto .contenedor [name="mensaje"] {
@@ -626,8 +592,6 @@
     margin-top: 10%; }
     .inicio-contacto .titulo-contacto {
       font-size: 30px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center;
       text-align: center;
       margin: auto;
@@ -641,8 +605,6 @@
         display: flex;
         flex-direction: row;
         font-size: 15px;
-        color: #1d1e1b;
-        font-family: "Castoro Titling", cursive;
         margin-bottom: 10px;
         text-align: left; }
     .inicio-contacto .contenedor {
@@ -651,8 +613,6 @@
       align-items: center; }
       .inicio-contacto .contenedor form .texto-formulario {
         font-size: 16px;
-        color: #1d1e1b;
-        font-family: "Castoro Titling", cursive;
         display: block;
         margin-bottom: 10px;
         text-align: center; }
@@ -660,9 +620,7 @@
         display: flex;
         text-align: left;
         font-size: 17px;
-        color: #1d1e1b;
-        margin-top: 5%;
-        font-family: "Castoro Titling", cursive; }
+        margin-top: 5%; }
       .inicio-contacto .contenedor form #formu,
       .inicio-contacto .contenedor form [name="mail"],
       .inicio-contacto .contenedor form [name="mensaje"] {
@@ -683,9 +641,7 @@
     text-align: center;
     margin-top: 30%; }
     .inicio-ag .titulo-ag {
-      font-size: 25px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive; }
+      font-size: 20px; }
     .inicio-ag .contenedor-ag {
       width: 75%;
       margin: auto; }
@@ -702,9 +658,7 @@
     text-align: center;
     margin-top: 15%; }
     .inicio-ag .titulo-ag {
-      font-size: 30px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive; }
+      font-size: 25px; }
     .inicio-ag .contenedor-ag {
       width: 75%;
       margin: auto; }
@@ -720,9 +674,7 @@
     text-align: center;
     margin-top: 10%; }
     .inicio-ag .titulo-ag {
-      font-size: 30px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive; }
+      font-size: 30px; }
     .inicio-ag .contenedor-ag {
       width: 60%;
       margin: auto; }
@@ -739,8 +691,6 @@
     margin-top: 30%; }
     .inicio-fantasia .titulo-ag {
       font-size: 20px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center; }
     .inicio-fantasia .contenedor-fan {
       width: 75%;
@@ -757,8 +707,6 @@
     flex-direction: column; }
     .inicio-fantasia .titulo-ag {
       font-size: 25px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center; }
     .inicio-fantasia .contenedor-fan {
       width: 69%;
@@ -775,8 +723,6 @@
     text-align: center; }
     .inicio-fantasia .titulo-ag {
       font-size: 30px;
-      color: #1d1e1b;
-      font-family: "Castoro Titling", cursive;
       text-align: center; }
     .inicio-fantasia .contenedor-fan {
       width: 60%;
@@ -784,10 +730,6 @@
       .inicio-fantasia .contenedor-fan .fan-img {
         width: 400px;
         padding: 5px; } }
-
-.inicio .caja-dos .introduccion, .inicio .caja-tres .intro-dos, .footer .caja-footer .texto-footer {
-  color: #1d1e1b;
-  font-family: "Castoro Titling", cursive; }
 
 .inicio .caja-tres .intro-dos .link-tienda, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
   color: #1d1e1b;
@@ -810,8 +752,6 @@
   padding: 5px; }
   .inicio .caja-dos .titulo-intro {
     font-size: 30px;
-    color: #1d1e1b;
-    font-family: "Castoro Titling", cursive;
     text-align: center; }
   .inicio .caja-dos .introduccion {
     text-align: justify;

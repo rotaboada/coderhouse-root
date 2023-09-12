@@ -16,32 +16,29 @@
     .contenedor-info {
       flex: 1;
       padding: 2rem;
-      font-family: "Castoro Titling", cursive;
+
       align-items: center;
       order: 2;
 
       .texto-formulario {
         font-size: 13px;
-        color: $primary-color;
-        font-family: "Castoro Titling", cursive;
+
         display: block;
       }
     }
     .contenedor {
       flex: 1;
       padding: 2rem;
-      font-family: "Castoro Titling", cursive;
+
       align-items: center;
       order: 1;
       margin-top: 10%;
 
       .formulario {
         text-align: left;
-        color: $primary-color;
         display: flex;
         font-size: 15px;
         margin-top: 5%;
-        font-family: "Castoro Titling", cursive;
       }
       #formu,
       [name="mail"],
@@ -80,7 +77,6 @@
 
       .desc-formulario {
         font-size: 15px;
-        color: $primary-color;
         font-family: "Spectral";
         margin-bottom: 10px;
         text-align: center;
@@ -93,7 +89,6 @@
 
         .text-disclaimer {
           font-size: 15px;
-          color: $primary-color;
           font-family: "Spectral";
           text-align: justify;
         }
@@ -103,14 +98,13 @@
     .contenedor {
       flex: 1;
       padding: 2rem;
-      font-family: "Castoro Titling", cursive;
+
       align-items: center;
       order: 1;
       margin-top: 5%;
       .texto-formulario {
         font-size: 18px;
-        color: $primary-color;
-        font-family: "Castoro Titling", cursive;
+
         display: block;
         margin-bottom: 10px;
         text-align: center;
@@ -118,10 +112,8 @@
 
       .formulario {
         text-align: left;
-        color: $primary-color;
         display: flex;
         font-size: 15px;
-        font-family: "Castoro Titling", cursive;
       }
       #formu,
       [name="mail"],
@@ -160,8 +152,7 @@
       .desc-formulario {
         @include flex(row, null, null);
         font-size: 15px;
-        color: $primary-color;
-        font-family: "Castoro Titling", cursive;
+
         margin-bottom: 10px;
         text-align: left;
       }
@@ -173,8 +164,7 @@
       form {
         .texto-formulario {
           font-size: 16px;
-          color: $primary-color;
-          font-family: "Castoro Titling", cursive;
+
           display: block;
           margin-bottom: 10px;
           text-align: center;
@@ -183,9 +173,7 @@
           display: flex;
           text-align: left;
           font-size: 17px;
-          color: $primary-color;
           margin-top: 5%;
-          font-family: "Castoro Titling", cursive;
         }
         #formu,
         [name="mail"],
