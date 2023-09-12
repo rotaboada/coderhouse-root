@@ -3,14 +3,12 @@
 
 @media (max-width: $mobile) {
   .inicio-contacto {
-    @include sizes(100%, 15%);
+    @include sizes(100%, 18vh);
     @include flex(column, null, null);
     flex-wrap: wrap-reverse;
     .titulo-contacto {
       @include titulos(20px);
       text-align: center;
-      margin-top: 20%;
-      width: 100%;
       order: 1;
     }
     .contenedor-info {
@@ -57,9 +55,9 @@
 }
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .inicio-contacto {
-    @include sizes(100%, 5%);
+    @include sizes(100%, 5vh);
     @include flex(column, center, center);
-    height: 80vh;
+    height: 100vh;
     .titulo-contacto {
       @include titulos(25px);
       text-align: center;
@@ -133,10 +131,9 @@
 
 @media (min-width: $desktop) {
   .inicio-contacto {
-    width: 100%;
+    @include sizes(100%, 10%);
     @include flex(row, null, center);
     flex-wrap: wrap-reverse;
-    margin-top: 10%;
     .titulo-contacto {
       @include titulos(30px);
       text-align: center;
@@ -183,9 +180,8 @@
         }
         #enviar {
           @include boton-enviar;
+          @include sizes(100%, 10px);
           font-size: 18px;
-          margin-top: 10px;
-          width: 100%;
         }
       }
     }

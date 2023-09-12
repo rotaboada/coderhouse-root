@@ -5,7 +5,8 @@
   .inicio-galeria {
     @include flex(column, center, center);
     height: auto;
-    margin-top: 30%;
+    margin-top: 18vh;
+    margin-bottom: 5vh;
 
     .titulo-galeria {
       @include titulos(20px);
@@ -64,7 +65,7 @@
   .inicio-galeria {
     @include flex(column, center, center);
     height: 130vh;
-    margin-top: 15%;
+    margin-top: 10vh;
 
     .titulo-galeria {
       @include titulos(30px);

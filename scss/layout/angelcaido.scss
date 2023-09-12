@@ -3,21 +3,18 @@
 
 @media (max-width: $mobile) {
   .inicio-ag {
-    width: 100%;
+    @include sizes(100%, 18vh);
+    margin-bottom: 5vh;
+
     text-align: center;
-    margin-top: 30%;
     .titulo-ag {
       font-size: 20px;
     }
     .contenedor-ag {
       width: 75%;
       margin: auto;
-      .fan-img {
-        width: 200px;
-        padding: 5px;
-      }
-      .img-angelcaido {
-        width: 200px;
+      img {
+        width: 300px;
         padding: 5px;
       }
     }
@@ -25,9 +22,9 @@
 }
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .inicio-ag {
-    width: 100%;
+    @include sizes(100%, 15%);
+    margin-bottom: 5vh;
     text-align: center;
-    margin-top: 15%;
     .titulo-ag {
       font-size: 25px;
     }
@@ -47,9 +44,9 @@
 
 @media (min-width: $desktop) {
   .inicio-ag {
-    width: 100%;
+    @include sizes(100%, 18vh);
+    margin-bottom: 5vh;
     text-align: center;
-    margin-top: 10%;
     .titulo-ag {
       font-size: 30px;
     }

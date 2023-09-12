@@ -4,8 +4,8 @@
 
 @media (max-width: $mobile) {
   .inicio-bio {
-    height: 80vh;
-    @include sizes(100%, 20%);
+    height: 70vh;
+    @include sizes(100%, 15vh);
     @include flex(column, center, center);
     .titulo-bio {
       @include titulos(20px);
@@ -19,9 +19,9 @@
 }
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .inicio-bio {
-    @include sizes(100%, 30%);
+    @include sizes(100%, 10%);
     @include flex(column, center, center);
-    height: 65vh;
+    height: 78vh;
 
     .titulo-bio {
       @include titulos(25px);
@@ -36,9 +36,9 @@
 
 @media (min-width: $desktop) {
   .inicio-bio {
-    @include sizes(100%, 20%);
+    @include sizes(100%, 10vh);
     @include flex(column, center, center);
-    height: 40vh;
+    height: 80vh;
 
     .titulo-bio {
       @include titulos(30px);

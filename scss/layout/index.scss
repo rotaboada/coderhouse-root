@@ -48,7 +48,7 @@
 }
 @media (min-width: $desktop) {
   .inicio {
-    margin-top: 10%;
+    @include sizes(100%, 10%);
 
     .lista {
       max-width: 75%;

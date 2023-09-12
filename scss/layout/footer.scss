@@ -1,18 +1,20 @@
 @import "../utils/variables";
 @import "../utils/mixin";
+@import "globals.scss";
 
 @media (max-width: $mobile) {
   .footer {
-    width: 100%;
-    @include flex(row, center, null);
-    height: 28vh;
-    margin-top: 35%;
+    @include sizes(100%, 0%);
+    @include flex(column-reverse, center, null);
+    height: 20vh;
+    background-color: blue;
   }
 }
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .footer {
     width: 100%;
     @include flex(row, center, null);
-    height: 28vh;
+    height: 10vh;
+    background-color: blueviolet;
   }
 }

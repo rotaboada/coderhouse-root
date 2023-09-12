@@ -6,9 +6,8 @@
     text-align: center;
     display: block;
     margin: auto;
-    @include sizes(100%, 30%);
-    height: 140vh;
-
+    @include sizes(100%, 18vh);
+    margin-bottom: 15vh;
     .titulo-colecciones {
       @include titulos(20px);
       grid-column: 1 !important;
@@ -45,16 +44,13 @@
 }
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .inicio-colecciones {
+    @include sizes(100%, 15vh);
+    margin-bottom: 5vh;
     text-align: center;
     display: block;
-    width: 100%;
-    margin: auto;
-    margin-top: 20%;
 
     .titulo-colecciones {
       @include titulos(25px);
-      grid-column: 1 !important;
-      grid-row: auto;
     }
 
     .contenedor-fantasia {
@@ -63,13 +59,14 @@
         width: 300px;
         padding: 5px;
       }
+      .texto-fantasia {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 2vh;
+      }
     }
-    .texto-fantasia {
-      font-family: "Times New Roman", Times, serif;
-      font-size: 18px;
-      text-align: center;
-      grid-row: 3 / 4;
-    }
+
     .contenedor-angel {
       margin: 20px auto 10px auto;
 
@@ -77,12 +74,12 @@
         width: 300px;
         padding: 5px;
       }
-    }
-    .texto-angel {
-      font-family: "Times New Roman", Times, serif;
-      font-size: 18px;
-      text-align: center;
-      grid-row: 3 / 4;
+      .texto-angel {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 2vh;
+      }
     }
   }
 }
@@ -92,10 +89,11 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr auto;
     gap: 20px;
-    @include sizes(70%, 15%);
+    @include sizes(70%, 20vh);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    height: 80vh;
 
     .titulo-colecciones {
       @include titulos(30px);
@@ -108,13 +106,13 @@
       grid-row: 2 / 3;
       grid-column: span 1;
       margin: auto;
-      height: 375px;
       padding: 0;
       overflow: hidden;
       z-index: 1;
       .imagen-colecciones {
         @include animacion-zoom;
         width: 300px;
+        margin-bottom: 50px;
       }
       .imagen-colecciones:hover {
         -webkit-transform: scale(1.1);
@@ -125,25 +123,26 @@
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
       }
+      .texto-fantasia {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+        text-align: center;
+        grid-row: 3 / 4;
+      }
     }
-    .texto-fantasia {
-      font-family: "Times New Roman", Times, serif;
-      font-size: 18px;
-      text-align: center;
-      grid-row: 3 / 4;
-    }
+
     .contenedor-angel {
       width: 300px;
       grid-row: 2 / 3;
       grid-column: span 1;
       margin: auto;
-      height: 375px;
       padding: 0;
       overflow: hidden;
       z-index: 1;
       .imagen-colecciones {
         @include animacion-zoom;
         width: 300px;
+        margin-bottom: 50px;
       }
       .imagen-colecciones:hover {
         -webkit-transform: scale(1.1);
@@ -154,12 +153,12 @@
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
       }
-    }
-    .texto-angel {
-      font-family: "Times New Roman", Times, serif;
-      font-size: 18px;
-      text-align: center;
-      grid-row: 3 / 4;
+      .texto-angel {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+        text-align: center;
+        grid-row: 3 / 4;
+      }
     }
   }
 }

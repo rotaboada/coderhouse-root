@@ -18,12 +18,12 @@
     }
   }
   .caja-dos {
+    width: 70%;
+    margin: 5vh auto;
+    padding: 5px;
     .titulo-intro {
       @include titulos(30px);
     }
-    width: 70%;
-    margin: auto;
-    padding: 5px;
 
     .introduccion {
       text-align: justify;
@@ -44,19 +44,23 @@
 }
 //footer
 .footer {
-  @include sizes(100%, 8%);
+  @include sizes(100%, 0%);
   @include flex(row, center, null);
   height: 10vh;
+  background-color: red;
 
   .caja-footer {
-    width: 100%;
+    width: 50%;
+    margin-left: 2%;
     .texto-footer {
       font-size: 12px;
     }
   }
   .redes {
+    width: 50%;
+    margin-right: 2%;
+
     ul {
-      width: 96%;
       @include flex(column, null, null);
       list-style: none;
       text-align: right;

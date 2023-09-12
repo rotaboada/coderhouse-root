@@ -4,15 +4,14 @@
 @media (max-width: $mobile) {
   .inicio-fantasia {
     text-align: center;
-    @include sizes(100%, 30%);
+    @include sizes(100%, 18vh);
     .titulo-ag {
       @include titulos(20px);
     }
     .contenedor-fan {
-      width: 75%;
-      margin: auto;
+      width: 100%;
       .fan-img {
-        width: 200px;
+        width: 300px;
         padding: 5px;
       }
     }
@@ -39,7 +38,7 @@
 
 @media (min-width: $desktop) {
   .inicio-fantasia {
-    @include sizes(100%, 10%);
+    @include sizes(100%, 18vh);
     text-align: center;
     .titulo-ag {
       @include titulos(30px);
