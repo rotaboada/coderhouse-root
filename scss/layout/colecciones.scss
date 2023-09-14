@@ -89,7 +89,7 @@
   .inicio-colecciones {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 375px auto;
     gap: 20px;
     @include sizes(70%, 20vh);
     margin-left: auto;
@@ -105,6 +105,7 @@
 
     .contenedor-fantasia {
       width: 300px;
+      height: 375px;
       grid-row: 2 / 3;
       grid-column: span 1;
       margin: auto;
@@ -125,16 +126,16 @@
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
       }
-      .texto-fantasia {
-        font-family: "Times New Roman", Times, serif;
-        font-size: 18px;
-        text-align: center;
-        grid-row: 3 / 4;
-      }
     }
-
+    .texto-fantasia {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 18px;
+      text-align: center;
+      grid-row: 3 / 4;
+    }
     .contenedor-angel {
       width: 300px;
+      height: 375px;
       grid-row: 2 / 3;
       grid-column: span 1;
       margin: auto;
@@ -155,12 +156,12 @@
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
       }
-      .texto-angel {
-        font-family: "Times New Roman", Times, serif;
-        font-size: 18px;
-        text-align: center;
-        grid-row: 3 / 4;
-      }
+    }
+    .texto-angel {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 18px;
+      text-align: center;
+      grid-row: 3 / 4;
     }
   }
 }
