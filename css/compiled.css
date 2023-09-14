@@ -1,9 +1,9 @@
 @import url(animate.css/animate.css);
-.inicio .caja-tres .intro-dos .link-tienda, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
+.inicio .caja-tres .intro-dos, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
   color: #1d1e1b;
   font-family: "Spectral"; }
 
-.inicio .caja-tres .intro-dos .link-tienda, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
+.inicio .caja-tres .intro-dos, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
   color: #1d1e1b;
   font-family: "Spectral"; }
 
@@ -16,7 +16,7 @@
   font-family: "Castoro Titling", cursive;
   color: #1d1e1b; }
 
-.inicio .caja-tres .intro-dos .link-tienda, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
+.inicio .caja-tres .intro-dos, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
   color: #1d1e1b;
   font-family: "Spectral"; }
 
@@ -48,7 +48,8 @@
   margin-top: 5rem; }
   .inicio .caja-tres .intro-dos {
     text-align: center;
-    font-size: 25px; }
+    font-size: 25px;
+    text-transform: uppercase; }
 
 .footer {
   width: 100%;
@@ -247,7 +248,7 @@
           -webkit-transform: scale(1.1);
           transform: scale(1.1); } }
 
-.inicio .caja-tres .intro-dos .link-tienda, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
+.inicio .caja-tres .intro-dos, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
   color: #1d1e1b;
   font-family: "Spectral"; }
 
@@ -279,7 +280,8 @@
   margin-top: 5rem; }
   .inicio .caja-tres .intro-dos {
     text-align: center;
-    font-size: 25px; }
+    font-size: 25px;
+    text-transform: uppercase; }
 
 .footer {
   width: 100%;
@@ -340,7 +342,7 @@
     align-items: center;
     height: 10vh; } }
 
-.inicio .caja-tres .intro-dos .link-tienda, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
+.inicio .caja-tres .intro-dos, .footer .redes ul .links-footer, .disclaimer .text-disclaimer {
   color: #1d1e1b;
   font-family: "Spectral"; }
 

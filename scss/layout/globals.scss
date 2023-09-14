@@ -36,9 +36,8 @@
     .intro-dos {
       text-align: center;
       font-size: 25px;
-      .link-tienda {
-        @extend %font-spectral;
-      }
+      text-transform: uppercase;
+      @extend %font-spectral;
     }
   }
 }
