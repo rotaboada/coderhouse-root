@@ -22,14 +22,14 @@
 }
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .inicio-ag {
-    @include sizes(100%, 15%);
+    @include sizes(100%, 15vh);
     margin-bottom: 5vh;
     text-align: center;
     .titulo-ag {
       font-size: 25px;
     }
     .contenedor-ag {
-      width: 75%;
+      width: 100%;
       margin: auto;
       .fan-img {
         width: 300px;

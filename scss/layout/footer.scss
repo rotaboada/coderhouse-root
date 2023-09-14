@@ -7,7 +7,17 @@
     @include sizes(100%, 0%);
     @include flex(column-reverse, center, null);
     height: 20vh;
-    background-color: blue;
+
+    .caja-footer {
+      width: 90%;
+      text-align: center;
+    }
+    .redes {
+      width: 100%;
+      ul {
+        text-align: center;
+      }
+    }
   }
 }
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
@@ -15,6 +25,5 @@
     width: 100%;
     @include flex(row, center, null);
     height: 10vh;
-    background-color: blueviolet;
   }
 }

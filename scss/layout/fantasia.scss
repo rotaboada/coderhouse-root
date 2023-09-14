@@ -19,8 +19,9 @@
 }
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .inicio-fantasia {
-    @include sizes(100%, 15%);
+    @include sizes(100%, 15vh);
     @include flex(column, null, null);
+    margin-bottom: 5vh;
     .titulo-ag {
       @include titulos(25px);
     }

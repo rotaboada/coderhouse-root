@@ -17,18 +17,18 @@
       }
     }
   }
+  .titulo-intro {
+    @include titulos(30px);
+    margin: auto;
+  }
   .caja-dos {
     width: 70%;
     margin: 5vh auto;
     padding: 5px;
-    .titulo-intro {
-      @include titulos(30px);
-    }
 
     .introduccion {
       text-align: justify;
       font-size: 20px;
-      margin-top: 8%;
     }
   }
   .caja-tres {
@@ -47,7 +47,6 @@
   @include sizes(100%, 0%);
   @include flex(row, center, null);
   height: 10vh;
-  background-color: red;
 
   .caja-footer {
     width: 50%;

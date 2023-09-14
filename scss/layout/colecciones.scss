@@ -10,12 +10,11 @@
     margin-bottom: 15vh;
     .titulo-colecciones {
       @include titulos(20px);
-      grid-column: 1 !important;
-      grid-row: auto;
     }
 
     .contenedor-fantasia {
       margin: 20px auto 10px auto;
+      display: grid;
       .imagen-colecciones {
         width: 300px;
         padding: 5px;
@@ -25,10 +24,12 @@
       font-family: "Times New Roman", Times, serif;
       font-size: 18px;
       text-align: center;
+      margin-top: 5%;
       grid-row: 3 / 4;
     }
     .contenedor-angel {
       margin: 20px auto 10px auto;
+      display: grid;
       .imagen-colecciones {
         width: 300px;
         padding: 5px;
@@ -38,6 +39,7 @@
       font-family: "Times New Roman", Times, serif;
       font-size: 18px;
       text-align: center;
+      margin-top: 5%;
       grid-row: 3 / 4;
     }
   }
@@ -45,8 +47,8 @@
 @media (min-width: $min-tablet) and (max-width: $max-tablet) {
   .inicio-colecciones {
     @include sizes(100%, 15vh);
-    margin-bottom: 5vh;
     text-align: center;
+    margin-bottom: 5vh;
     display: block;
 
     .titulo-colecciones {

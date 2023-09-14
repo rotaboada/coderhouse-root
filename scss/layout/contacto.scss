@@ -68,7 +68,6 @@
     .contenedor-info {
       @include flex(column, null, null);
       flex: 1;
-      margin-top: 10%;
       order: 2;
       width: 95%;
       flex-wrap: wrap;
@@ -81,7 +80,7 @@
       }
       .disclaimer {
         display: flex;
-        margin: auto;
+        align-self: center;
         width: 80%;
         order: 2;
 
